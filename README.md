@@ -34,16 +34,17 @@ The first stage is to set up the framework using the kit box.
 
 2. Use a craft knife to cut a hole for the RPi to fit into. It is important to cut slightly smaller than the case so that it is a snug fit. More can be cut off but it is very hard to add card back after. If the fit is a little loose some electricians tape can be used to tighten the fit.
 
-![Cutting out](../images/cut.jpg)
+  ![Cutting out](/images/cut.jpg)
 
 3. Test fit the pi repeatedly to get the fit right. Once the case fits nicely the stand is complete.
 
 4. Clip the light source to the side of the box (or position to illuminate the items.
-![Front on](../images/fronton.jpg)
+  
+  ![Front on](/images/fronton.jpg)
 
 5. Add the Rapsberry Pi sticket to the front of the box.
 
-![Sticker](../images/back.jpg)
+  ![Sticker](/images/back.jpg)
 
 
 ##Step 3: Program the Raspberry Pi to control the camera
