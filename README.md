@@ -36,7 +36,7 @@ The first stage is to set up the framework using the kit box.
 
 3. Test fit the RPi repeatedly to get the fit right. Once the case fits nicely the stand is complete.
 
-4. Clip the light source to the side of the box (or position to illuminate the items.
+4. Clip the light source to the side of the box (or position to illuminate the items).
   
   ![Front on](/images/fronton.jpg)
 
@@ -47,8 +47,35 @@ The first stage is to set up the framework using the kit box.
 
 ##Step 3: Program the Raspberry Pi to control the camera
 
-This can be a really simple program to initiate the camera or could be complicated depending on what you wish to achive.
+This can be a really simple program to initiate the camera or could be complicated depending on what you wish to achive. In fact the `raspistill` command can be used in LXTerminal or at the command line to show a preview image (we don't need to save a file for this to work.
 
-`Raspistill -p`
+`raspistill -p`
+
+Will show a preview of the image on the screen 
+
+`raspistill -f`
+
+Will give a full screen preview.
+
+##Step 4: USe the Visual-Pi-ser
+
+With the simpele set up above the RPi can be connectyed directly to the projector and used as a visualiser.
+
+
+##Future Improvements
+
+1. Further options (such as the possibility to capture still pictures from the visualiser)can be added using a python or BASH script.
+
+Some examples will be added to this repository to show what can be done
+
+2. Buttons could be connected to the GPIO pins on the Pi and the script used to define extra functionality (such as stills or short video recordings.
+
+3. LED lighting could be connected to the Pi GPIO pins and controlled using the RPi this only using the lighting when needed. 
 
 ##Licence
+
+Unless otherwise specified, everything in this repository is covered by the following licence:
+
+![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+
+***Visual-Pi-ser*** by [Neil Bizzell](http://twiter.com/neilbizzell) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
