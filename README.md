@@ -7,14 +7,14 @@ This project is created from the [PC Raspberry Pi Model B+ Camera Kit](http://uc
 ##Step 0: Gather the components
 
 For this project you will need:
-1. A Raspberry Pi Model B+ (b could work but B+ prot configuration work better for this project).
-1. A Raspberry Pi Camera Module (or Pi NoIR if you are using the Kit).
-1. A Raspberry Pi Power Supply.
-1. SD Card with OS installed.
-1. Case with mount for Pi Camera.
-1. A suitable sized box (if using the abve kit the provided box is ideal).
-1. A suitable light source to illuminate your items.
-1. Raspberry Pi Sticker (optional).
+A Raspberry Pi Model B+ (b could work but B+ prot configuration work better for this project).
+A Raspberry Pi Camera Module (or Pi NoIR if you are using the Kit).
+A Raspberry Pi Power Supply.
+SD Card with OS installed.
+Case with mount for Pi Camera.
+A suitable sized box (if using the abve kit the provided box is ideal).
+A suitable light source to illuminate your items.
+Raspberry Pi Sticker (optional).
 
 ##Step 1: Set up the Raspberry Pi and Camera Module
 
