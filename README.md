@@ -59,7 +59,7 @@ Will show a preview of the image on the screen
 
 Will give a full screen preview.
 
-##Step 4: USe the Visual-Pi-ser
+##Step 4: Use the Visual-Pi-ser
 
 With the simpele set up above the RPi can be connectyed directly to the projector and used as a visualiser.
 
