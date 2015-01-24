@@ -8,15 +8,19 @@ This project is created from the [PC Raspberry Pi Model B+ Camera Kit](http://uc
 
 For this project you will need:
 
-1. A Raspberry Pi Model B+ (b could work but B+ prot configuration work better for this project).
+1. A Raspberry Pi Model B+ (b could work but the B+ port configuration works better for this project).
+  ![Raspberry Pi B+](/images/RPiB+.jpg)
 1. A Raspberry Pi Camera Module (or Pi NoIR if you are using the Kit).
+  ![Raspberry Pi Camera Module](/images/rpicam.png)
 1. A Raspberry Pi Power Supply.
 1. SD Card with OS installed.
 1. Case with mount for Pi Camera.
+  ![Case with camera mount](/images/case.jpg)
 1. A suitable sized box (if using the abve kit the provided box is ideal).
-1. A suitable light source to illuminate your items.
+1. A suitable light source to illuminate your items. i a,m using the [Mighty Bright E reader LEd lamp](http://www.johnlewis.com/mighty-bright-led-e-reader-light-black/p431589?sku=231956681&kpid=231956681&s_kenid=2024374f-2661-32c9-b22d-0000736710b9&s_kwcid=404x101016&tmad=c&tmcampid=73&kpid=231956681) as I was given one for christmas, but any small light source would work)
+  ![Light](/images/light.jpg)
 1. Raspberry Pi Sticker (optional).
-
+  ![sticker](/images/sticker.jpg)
 
 ##Step 1: Set up the Raspberry Pi and Camera Module
 
