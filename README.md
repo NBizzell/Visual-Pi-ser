@@ -68,8 +68,6 @@ With the simpele set up above the RPi can be connectyed directly to the projecto
 
 1. Further options (such as the possibility to capture still pictures from the visualiser)can be added using a python or BASH script.
 
-Some examples will be added to this repository to show what can be done
-
 2. Buttons could be connected to the GPIO pins on the Pi and the script used to define extra functionality (such as stills or short video recordings.
 
 3. LED lighting could be connected to the Pi GPIO pins and controlled using the RPi this only using the lighting when needed.
