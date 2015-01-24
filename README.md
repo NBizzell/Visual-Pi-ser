@@ -8,9 +8,7 @@ This project is created from the [PC Raspberry Pi Model B+ Camera Kit](http://uc
 
 For this project you will need:
 1. A Raspberry Pi Model B+ (b could work but B+ prot configuration work better for this project).
-
 1. A Raspberry Pi Camera Module (or Pi NoIR if you are using the Kit).
-
 1. A Raspberry Pi Power Supply.
 1. SD Card with OS installed.
 1. Case with mount for Pi Camera.
@@ -32,7 +30,7 @@ The first stage is to set up the framework using the kit box.
 
 1. First mark around the case to judge the size of the case. Take case to ensure the camera mount hole will be in the middle of the box at the open side.
 
-![Marking up](../images/mark.jpg)
+  ![Marking up](../images/mark.jpg)
 
 2. Use a craft knife to cut a hole for the RPi to fit into. It is important to cut slightly smaller than the case so that it is a snug fit. More can be cut off but it is very hard to add card back after. If the fit is a little loose some electricians tape can be used to tighten the fit.
 
