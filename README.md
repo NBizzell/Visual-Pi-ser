@@ -12,7 +12,7 @@ For this project you will need:
 
 1. A Raspberry Pi Model B+ (b could work but the B+ port configuration works better for this project).
 
-  ![Raspberry Pi B+](/images/RpiB+.jpg)
+  ![Raspberry Pi B+](/images/RpiB+.png)
   
 1. A Raspberry Pi Camera Module (or Pi NoIR if you are using the Kit).
 
