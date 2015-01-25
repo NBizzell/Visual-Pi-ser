@@ -88,7 +88,7 @@ The full command we will use is:
 
 This show a video image on the screen for five minutes. If you require more or less time you can alter the numer of miliseconds (60000 for each minute) or you can terminate this early by pressing `ctrl+c`. You can also start it again quickly with the up arrow and enter.
 
-  ![At the Command line](/images/cmd.jpg) ![in the GUI](/images/GUI.jpg)
+  ![At the Command line](/images/Cmd.jpg) ![in the GUI](/images/GUI.jpg)
 
 ##Step 4: Focus the Camera
 
@@ -106,7 +106,7 @@ Once the lens is free to move turn the lens anticlockwise to make the area in fo
 
 ###Warning!!!
 
-  ![Warning](/images/warn.jpg)
+  ![Warning](/images/warn.png)
 
 Take care when handling the camera module as they can be sensitive to static and they are not very firmly attached to the boards. It is really easy to break the module when trying to turn the lens so make sure the bottom part of the camera does not turn against the board when trying to turn the lens. The author takes no reposnsibility for camera modules if you ateempt this. If you do not wish to modify the lens you can always find a larger box to use.
 
