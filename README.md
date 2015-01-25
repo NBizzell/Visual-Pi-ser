@@ -117,9 +117,11 @@ With the simpele set up above the RPi can be connectyed directly to the projecto
 
   ![set up](/images/setup.jpg)
   
-This is most useful in a classroom where the pi can be connected directly to a projector. To make the Set up more like the seemless AV setups in universities you could [set up a VNC connection](http://www.raspberrypi.org/documentation/remote-access/vnc/README.md) and then minimise / maximise the VNC window when required. This will require permission to install VNC software if not already part of the school image so you might need to talk nicely to your IT Department to make this happen. You could of course purchase a KVM switch but that would cost money.
+This is most useful in a classroom where the RPi can be connected directly to a projector. To make the Set up more like the seemless AV setups in universities you could [set up a VNC connection](http://www.raspberrypi.org/documentation/remote-access/vnc/README.md) and then minimise / maximise the VNC window when required. This will require permission to install VNC software if not already part of the school image so you might need to talk nicely to your IT Department to make this happen. You could of course purchase a KVM switch but that would cost money.
 
 The construction of the box provided with this kit gives a fairly small area for working in but it is an ideal size for simple physical computing demonstrations and other small items. The advantage of this is it is slightly magnified so the students can easily see which pins are in use.
+
+  ![In action](/images/action.jpg)
 
 If you require a larger area for your demonstrations (lager physical computing projects or set up demonstrations) then you could use a larger box. An alternative idea is to borrow a clamp and clamp stand from the science department and secure the case a suitable distance above the desk. A sheet of A3  or A4 paper wil give a nice background for this.
 
