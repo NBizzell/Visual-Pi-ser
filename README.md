@@ -73,7 +73,7 @@ The first stage is to set up the framework using the kit box.
   
   ![Front on](/images/fronton.jpg)
 
-5. Add the Rapsberry Pi sticket to the front of the box.
+5. Add the Rapsberry Pi sticker to the front of the box.
 
   ![Sticker](/images/back.jpg)
 
