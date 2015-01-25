@@ -19,7 +19,13 @@ For this project you will need:
   ![Raspberry Pi Camera Module](/images/rpicam.png)
 
 1. A Raspberry Pi Power Supply.
+
+  ![power supply](/images/power.jpg)
+
 1. SD Card with OS installed.
+
+  ![Rapian SD Card](/images/Rasp.jpg)
+
 1. Case with mount for Pi Camera.
 
   ![Case with camera mount](/images/case.jpg)
