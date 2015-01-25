@@ -25,7 +25,7 @@ For this project you will need:
   ![Case with camera mount](/images/case.jpg)
 
 1. A suitable sized box (if using the abve kit the provided box is ideal).
-1. A suitable light source to illuminate your items. (I'm using the [Mighty Bright E reader LEd lamp](http://www.johnlewis.com/mighty-bright-led-e-reader-light-black/p431589?sku=231956681&kpid=231956681&s_kenid=2024374f-2661-32c9-b22d-0000736710b9&s_kwcid=404x101016&tmad=c&tmcampid=73&kpid=231956681) as I was given one for christmas, but any small light source would work)
+1. A suitable light source to illuminate your items. (I'm using the [Mighty Bright eReader LEd Lamp](http://www.johnlewis.com/mighty-bright-led-e-reader-light-black/p431589?sku=231956681&kpid=231956681&s_kenid=2024374f-2661-32c9-b22d-0000736710b9&s_kwcid=404x101016&tmad=c&tmcampid=73&kpid=231956681) as I was given one for christmas, but any small light source would work)
 
   ![Light](/images/light.jpg)
 
