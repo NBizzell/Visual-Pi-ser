@@ -55,7 +55,7 @@ Set up the Raspberry Pi with the Pre-installed SD card. You will need to connect
 
 When running the config ensure the camera is enabled. 
 
-If you are unsure of how to set up the RPi or the camera here are guides to set up the [Raspberry Pi](http://raspberrypi.org/.....) and set up the [Pi Camera](Http://raspberrypi.org/....)
+If you are unsure of how to set up the RPi or the camera here are guides to set up the [Raspberry Pi](http://www.raspberrypi.org/help/quick-start-guide/) and set up the [Pi Camera](http://www.raspberrypi.org/help/camera-module-setup/)
 
 ##Step 2: Prepare the box
 
