@@ -113,7 +113,7 @@ Take care when handling the camera module as they can be sensitive to static and
 
 ##Step 5: Use the Visual-Pi-ser
 
-With the simpele set up above the RPi can be connectyed directly to the projector and used as a visualiser. 
+With the simple set up above the RPi can be connected directly to the projector and used as a visualiser. 
 
   ![set up](/images/setup.jpg)
   
