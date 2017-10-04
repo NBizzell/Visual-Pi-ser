@@ -2,7 +2,7 @@
 
 A low cost classroom visualiser based on the Raspberry Pi.
 
-This project is created from the [PC Raspberry Pi Model B+ Camera Kit](http://ucreatekit.co.uk/camera-kit.html) but you could also make this from the individual components and a suitable box.
+This project is created from the [UCreate Raspberry Pi Model B+ Camera Kit](http://www.ucreatekit.co.uk/products/raspberry-pi-2-camera-kit/) but you could also make this from the individual components and a suitable box.
 
   ![Raspberry Pi Model B+ Camera Kit](/images/kit.jpg)
 
