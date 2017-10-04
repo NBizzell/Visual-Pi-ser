@@ -1,4 +1,4 @@
-#Visual-Pi-ser
+# Visual-Pi-ser
 
 A low cost classroom visualiser based on the Raspberry Pi.
 
@@ -6,7 +6,7 @@ This project is created from the [PC Raspberry Pi Model B+ Camera Kit](http://uc
 
   ![Raspberry Pi Model B+ Camera Kit](/images/kit.jpg)
 
-##Step 0: Gather the components
+## Step 0: Gather the components
 
 For this project you will need:
 
@@ -49,7 +49,7 @@ For this project you will need:
   ![sticker](/images/sticker.jpg)
 
 
-##Step 1: Set up the Raspberry Pi and Camera Module
+## Step 1: Set up the Raspberry Pi and Camera Module
 
 Set up the Raspberry Pi with the Pre-installed SD card. You will need to connect the RPi to the internet to complete the set up. Raspian is probably the best choice for this project.
 
@@ -57,7 +57,7 @@ When running the config ensure the camera is enabled.
 
 If you are unsure of how to set up the RPi or the camera here are guides to set up the [Raspberry Pi](http://www.raspberrypi.org/help/quick-start-guide/) and set up the [Pi Camera](http://www.raspberrypi.org/help/camera-module-setup/)
 
-##Step 2: Prepare the box
+## Step 2: Prepare the box
 
 The first stage is to set up the framework using the kit box.
 
@@ -78,7 +78,7 @@ The first stage is to set up the framework using the kit box.
   ![Sticker](/images/back.jpg)
 
 
-##Step 3: Program the Raspberry Pi to control the camera
+## Step 3: Program the Raspberry Pi to control the camera
 
 This can be a really simple program to initiate the camera or could be complicated depending on what you wish to achive. In fact the `raspivid` command can be used in LXTerminal or at the command line to show an imagae on the screen (we don't need to save a file for this to work). To show the image we use the `-t x` extension where x is the time in miliseconds. We also need to use the `-rot 90` extension to rotate the view 90 degrees as the camera top faces the side of the box when installed in the case. If you use your own larger box you may be able to position the camera upright. In this case you can ommit the `-rot 90 extension`
 
@@ -90,7 +90,7 @@ This show a video image on the screen for five minutes. If you require more or l
 
   ![At the Command line](/images/Cmd.jpg) ![in the GUI](/images/GUI.jpg)
 
-##Step 4: Focus the Camera
+## Step 4: Focus the Camera
 
 If you have used the box from the kit you will find that the image is out of focus. The minimum focus distance of the Camera module is around 47cm and this is somewhat less than that.
 
@@ -104,14 +104,14 @@ These blobs of glue can be cut using a craft knife and magnifying glass until th
 Once the lens is free to move turn the lens anticlockwise to make the area in focus closer to the camera. To do this it is best to set the camera running and keep testing the focus unti it is correct. Once you are happy with the focual distance of the camera then fix it back into the case. 
 
 
-###Warning!!!
+### Warning!!!
 
   ![Warning](/images/warn.png)
 
 Take care when handling the camera module as they can be sensitive to static and they are not very firmly attached to the boards. It is really easy to break the module when trying to turn the lens so make sure the bottom part of the camera does not turn against the board when trying to turn the lens. The author takes no reposnsibility for camera modules if you ateempt this. If you do not wish to modify the lens you can always find a larger box to use.
 
 
-##Step 5: Use the Visual-Pi-ser
+## Step 5: Use the Visual-Pi-ser
 
 With the simple set up above the RPi can be connected directly to the projector and used as a visualiser. 
 
@@ -130,16 +130,14 @@ Another potential bonus of using the box that comes with the kit is that due to 
   ![All Packed in](/images/store.jpg) ![Box](/images/box.jpg)
 
 
-##Future Improvements
+## Future Improvements
 
 1. Further options (such as the possibility to capture still pictures from the visualiser)can be added using a python or BASH script.
-
-2. Buttons could be connected to the GPIO pins on the Pi and the script used to define extra functionality (such as stills or short video recordings.
-
-3. LED lighting could be connected to the Pi GPIO pins and controlled using the RPi this only using the lighting when needed.
+1. Buttons could be connected to the GPIO pins on the Pi and the script used to define extra functionality (such as stills or short video recordings.
+1. LED lighting could be connected to the Pi GPIO pins and controlled using the RPi this only using the lighting when needed.
 
 
-##Licence
+## Licence
 
 Unless otherwise specified, everything in this repository is covered by the following licence:
 
