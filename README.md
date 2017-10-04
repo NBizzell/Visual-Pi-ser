@@ -24,14 +24,14 @@ For this project you will need:
 
 1. SD Card with OS installed.
 
-  ![Rapian SD Card](/images/Rasp.jpg)
+  ![Raspbian SD Card](/images/Rasp.jpg)
 
 1. Case with mount for Pi Camera.
 
   ![Case with camera mount](/images/case.jpg)
 
-1. A suitable sized box (if using the abve kit the provided box is ideal).
-1. A suitable light source to illuminate your items. (I'm using the [Mighty Bright eReader LEd Lamp](http://www.johnlewis.com/mighty-bright-led-e-reader-light-black/p431589?sku=231956681&kpid=231956681&s_kenid=2024374f-2661-32c9-b22d-0000736710b9&s_kwcid=404x101016&tmad=c&tmcampid=73&kpid=231956681) as I was given one for christmas, but any small light source would work).
+1. A suitable sized box (if using the above kit the provided box is ideal).
+1. A suitable light source to illuminate your items. (I'm using the [Mighty Bright eReader LED Lamp](http://www.johnlewis.com/mighty-bright-led-e-reader-light-black/p431589?sku=231956681&kpid=231956681&s_kenid=2024374f-2661-32c9-b22d-0000736710b9&s_kwcid=404x101016&tmad=c&tmcampid=73&kpid=231956681) as I was given one for Christmas, but any small light source would work).
 
   ![Light](/images/light.jpg)
 
@@ -51,7 +51,7 @@ For this project you will need:
 
 ## Step 1: Set up the Raspberry Pi and Camera Module
 
-Set up the Raspberry Pi with the Pre-installed SD card. You will need to connect the RPi to the internet to complete the set up. Raspian is probably the best choice for this project.
+Set up the Raspberry Pi with the Pre-installed SD card. You will need to connect the RPi to the internet to complete the set up. Raspbian is probably the best choice for this project.
 
 When running the config ensure the camera is enabled. 
 
@@ -73,20 +73,20 @@ The first stage is to set up the framework using the kit box.
   
   ![Front on](/images/fronton.jpg)
 
-5. Add the Rapsberry Pi sticker to the front of the box.
+5. Add the Raspberry Pi sticker to the front of the box.
 
   ![Sticker](/images/back.jpg)
 
 
 ## Step 3: Program the Raspberry Pi to control the camera
 
-This can be a really simple program to initiate the camera or could be complicated depending on what you wish to achive. In fact the `raspivid` command can be used in LXTerminal or at the command line to show an imagae on the screen (we don't need to save a file for this to work). To show the image we use the `-t x` extension where x is the time in miliseconds. We also need to use the `-rot 90` extension to rotate the view 90 degrees as the camera top faces the side of the box when installed in the case. If you use your own larger box you may be able to position the camera upright. In this case you can ommit the `-rot 90 extension`
+This can be a really simple program to initiate the camera or could be complicated depending on what you wish to achieve. In fact the `raspivid` command can be used in LXTerminal or at the command line to show an image on the screen (we don't need to save a file for this to work). To show the image we use the `-t x` extension where x is the time in milliseconds. We also need to use the `-rot 90` extension to rotate the view 90 degrees as the camera top faces the side of the box when installed in the case. If you use your own larger box you may be able to position the camera upright. In this case you can omit the `-rot 90 extension`
 
 The full command we will use is:
 
 `raspivid -t  300000 -rot 90`
 
-This show a video image on the screen for five minutes. If you require more or less time you can alter the numer of miliseconds (60000 for each minute) or you can terminate this early by pressing `ctrl+c`. You can also start it again quickly with the up arrow and enter.
+This show a video image on the screen for five minutes. If you require more or less time you can alter the number of milliseconds (60000 for each minute) or you can terminate this early by pressing `ctrl+c`. You can also start it again quickly with the up arrow and enter.
 
   ![At the Command line](/images/Cmd.jpg) ![in the GUI](/images/GUI.jpg)
 
@@ -94,9 +94,9 @@ This show a video image on the screen for five minutes. If you require more or l
 
 If you have used the box from the kit you will find that the image is out of focus. The minimum focus distance of the Camera module is around 47cm and this is somewhat less than that.
 
-To change the focus on the camera you will neeed to turn the lens on the board. Unfortunatly the Camera Module is designed to be fixed focus so the lens is glued in place with three small blobs of glue.
+To change the focus on the camera you will need to turn the lens on the board. Unfortunately the Camera Module is designed to be fixed focus so the lens is glued in place with three small blobs of glue.
 
-These blobs of glue can be cut using a craft knife and magnifying glass until the lens is free to move. To do this grab a sharp small craft knife and a magnifying glass (a helping hand device is ideal for this). You first will need to remove the camera moduile from the case to do this. 
+These blobs of glue can be cut using a craft knife and magnifying glass until the lens is free to move. To do this grab a sharp small craft knife and a magnifying glass (a helping hand device is ideal for this). You first will need to remove the camera module from the case to do this. 
 
 ![Cutting the lens free](/images/cutlens.jpg)
 
@@ -108,7 +108,7 @@ Once the lens is free to move turn the lens anticlockwise to make the area in fo
 
   ![Warning](/images/warn.png)
 
-Take care when handling the camera module as they can be sensitive to static and they are not very firmly attached to the boards. It is really easy to break the module when trying to turn the lens so make sure the bottom part of the camera does not turn against the board when trying to turn the lens. The author takes no reposnsibility for camera modules if you ateempt this. If you do not wish to modify the lens you can always find a larger box to use.
+Take care when handling the camera module as they can be sensitive to static and they are not very firmly attached to the boards. It is really easy to break the module when trying to turn the lens so make sure the bottom part of the camera does not turn against the board when trying to turn the lens. The author takes no responsibility for broken camera modules if you attempt this. If you do not wish to modify the lens you can always find a larger box to use.
 
 
 ## Step 5: Use the Visual-Pi-ser
@@ -117,15 +117,15 @@ With the simple set up above the RPi can be connected directly to the projector 
 
   ![set up](/images/setup.jpg)
   
-This is most useful in a classroom where the RPi can be connected directly to a projector. To make the Set up more like the seemless AV setups in universities you could [set up a VNC connection](http://www.raspberrypi.org/documentation/remote-access/vnc/README.md) and then minimise / maximise the VNC window when required. This will require permission to install VNC software if not already part of the school image so you might need to talk nicely to your IT Department to make this happen. You could of course purchase a KVM switch but that would cost money.
+This is most useful in a classroom where the RPi can be connected directly to a projector. To make the Set up more like the seamless AV setups in universities you could [set up a VNC connection](http://www.raspberrypi.org/documentation/remote-access/vnc/README.md) and then minimise / maximise the VNC window when required. This will require permission to install VNC software if not already part of the school image so you might need to talk nicely to your IT Department to make this happen. You could of course purchase a KVM switch but that would cost money.
 
 The construction of the box provided with this kit gives a fairly small area for working in but it is an ideal size for simple physical computing demonstrations and other small items. The advantage of this is it is slightly magnified so the students can easily see which pins are in use.
 
   ![In action](/images/action.jpg)
 
-If you require a larger area for your demonstrations (lager physical computing projects or set up demonstrations) then you could use a larger box. An alternative idea is to borrow a clamp and clamp stand from the science department and secure the case a suitable distance above the desk. A sheet of A3  or A4 paper wil give a nice background for this.
+If you require a larger area for your demonstrations (lager physical computing projects or set up demonstrations) then you could use a larger box. An alternative idea is to borrow a clamp and clamp stand from the science department and secure the case a suitable distance above the desk. A sheet of A3 or A4 paper will give a nice background for this.
 
-Another potential bonus of using the box that comes with the kit is that due to the construction of the box you can still use it to store components in. So if you use more than one classroom or travel round showing people all thing RPi you have a handy carry case for your demo kit.
+Another potential bonus of using the box that comes with the kit is that due to the construction of the box you can still use it to store components in. So if you use more than one classroom or travel round showing people all things RPi you have a handy carry case for your demo kit.
 
   ![All Packed in](/images/store.jpg) ![Box](/images/box.jpg)
 
