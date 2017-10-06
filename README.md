@@ -14,36 +14,36 @@ For this project you will need:
 
   ![Raspberry Pi B+](/images/RpiB+.jpg)
   
-1. A Raspberry Pi Camera Module (or Pi NoIR if you are using the Kit).
+2. A Raspberry Pi Camera Module (or Pi NoIR if you are using the Kit).
 
   ![Raspberry Pi Camera Module](/images/rpicam.png)
 
-1. A Raspberry Pi Power Supply.
+3. A Raspberry Pi Power Supply.
 
   ![power supply](/images/power.jpg)
 
-1. SD Card with OS installed.
+4. SD Card with OS installed.
 
   ![Raspbian SD Card](/images/Rasp.jpg)
 
-1. Case with mount for Pi Camera.
+5. Case with mount for Pi Camera.
 
   ![Case with camera mount](/images/case.jpg)
 
-1. A suitable sized box (if using the above kit the provided box is ideal).
-1. A suitable light source to illuminate your items. (I'm using the [Mighty Bright eReader LED Lamp](http://www.johnlewis.com/mighty-bright-led-e-reader-light-black/p431589?sku=231956681&kpid=231956681&s_kenid=2024374f-2661-32c9-b22d-0000736710b9&s_kwcid=404x101016&tmad=c&tmcampid=73&kpid=231956681) as I was given one for Christmas, but any small light source would work).
+6. A suitable sized box (if using the above kit the provided box is ideal).
+7. A suitable light source to illuminate your items. (I'm using the [Mighty Bright eReader LED Lamp](http://www.johnlewis.com/mighty-bright-led-e-reader-light-black/p431589?sku=231956681&kpid=231956681&s_kenid=2024374f-2661-32c9-b22d-0000736710b9&s_kwcid=404x101016&tmad=c&tmcampid=73&kpid=231956681) as I was given one for Christmas, but any small light source would work).
 
   ![Light](/images/light.jpg)
 
-1. A small, sharp craft knife.
+8. A small, sharp craft knife.
 
  ![Craft knife](/images/knife.jpg)
 
-1. Magnifying glass or Helping hand.
+9. Magnifying glass or Helping hand.
 
   ![Helping hand](/images/helphand.jpg)
 
-1. Raspberry Pi Sticker (optional).
+10. Raspberry Pi Sticker (optional).
 
 
   ![sticker](/images/sticker.jpg)
@@ -101,7 +101,7 @@ These blobs of glue can be cut using a craft knife and magnifying glass until th
 ![Cutting the lens free](/images/cutlens.jpg)
 
 
-Once the lens is free to move turn the lens anticlockwise to make the area in focus closer to the camera. To do this it is best to set the camera running and keep testing the focus unti it is correct. Once you are happy with the focual distance of the camera then fix it back into the case. 
+Once the lens is free to move turn the lens anticlockwise to make the area in focus closer to the camera. To do this it is best to set the camera running and keep testing the focus until it is correct. Once you are happy with the focal distance of the camera then fix it back into the case. 
 
 
 ### Warning!!!
@@ -132,7 +132,7 @@ Another potential bonus of using the box that comes with the kit is that due to 
 
 ## Future Improvements
 
-1. Further options (such as the possibility to capture still pictures from the visualiser)can be added using a python or BASH script.
+1. Further options (such as the possibility to capture still pictures from the visualiser) can be added using a python or BASH script.
 1. Buttons could be connected to the GPIO pins on the Pi and the script used to define extra functionality (such as stills or short video recordings.
 1. LED lighting could be connected to the Pi GPIO pins and controlled using the RPi this only using the lighting when needed.
 
@@ -143,4 +143,4 @@ Unless otherwise specified, everything in this repository is covered by the foll
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-***Visual-Pi-ser*** by [Neil Bizzell](http://twiter.com/neilbizzell) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+***Visual-Pi-ser*** by [Neil Bizzell](http://twiter.com/PiVangelist) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
